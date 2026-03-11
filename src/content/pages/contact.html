@@ -1,0 +1,154 @@
+<div class="contact-page container">
+  <section class="contact-page__main">
+    <div class="row g-0">
+      <div class="col-md-8">
+        <img class="contact-page__main-image" decoding="async" width="1106" height="776"
+             src="/images/contact.jpg" alt=""
+             srcset="/images/contact.jpg 1106w, /images/contact-1536x1078.jpg 1536w, /images/contact-1024x718.jpg 1024w,
+      /images/contact-768x539.jpg 768w, /images/contact-600x421.jpg 600w, /images/contact-300x210.jpg 300w"
+             sizes="(max-width: 1106px) 100vw, 1106px">
+      </div>
+      <div class="col-md-4">
+        <div class="contact-page__main-info">
+          <h3 class="contact-page__main-info-header">Contact</h3>
+          <p>
+            8212 E. Glen Creek Street Orchard Park,<br>NY 14127, United States of America<br>Phone:
+            +1 909969 0383<br>Email: hello@fuelthemes.net
+          </p>
+          <p>
+            <a class="contact-page__main-info-link" href="#">SHOW ON GOOGLE MAPS</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact-page__banner-grid container">
+    <div class="row g-30 g-sm-60">
+      <div class="contact-page__banner-grid-wrapper col-12 col-md-4">
+        <div class="media-banner">
+          <img class="media-banner__image contact-page__main-image" decoding="async" width="780"
+               height="780" src="/images/m2.jpg" alt=""
+               srcset="/images/m2.jpg 780w, /images/m2-768x768.jpg 768w, /images/m2-600x600.jpg 600w, /images/m2-300x300.jpg 300w, /images/m2-200x200.jpg 200w, /images/m2-150x150.jpg 150w"
+               sizes="(max-width: 780px) 100vw, 780px" loading="lazy">
+          <div class="media-banner__info">
+            <h4 class="media-banner__info-title">Home / Indoor<br />Plants</h4>
+            <div>
+              <a class="btn btn-white" href="/shop"> FOR MY HOME </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-page__banner-grid-wrapper col-12 col-md-4">
+        <div class="media-banner">
+          <img class="media-banner__image contact-page__main-image" decoding="async" width="780"
+               height="780" src="/images/m3.jpg" alt=""
+               srcset="/images/m3.jpg 780w, /images/m3-768x768.jpg 768w, /images/m3-600x600.jpg 600w, /images/m3-300x300.jpg 300w, /images/m3-200x200.jpg 200w, /images/m3-150x150.jpg 150w"
+               sizes="(max-width: 780px) 100vw, 780px" loading="lazy">
+          <div class="media-banner__info">
+            <h4 class="media-banner__info-title">Holiday Gifts <br />Collection</h4>
+            <div>
+              <a class="btn btn-white" href="/shop"> SHOP GIFTS </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-page__banner-grid-wrapper col-12 col-md-4">
+        <div class="media-banner">
+          <img class="media-banner__image contact-page__main-image" decoding="async" width="780"
+               height="780" src="/images/m04.jpg" alt=""
+               srcset="/images/m04.jpg 780w, /images/m04-768x768.jpg 768w, /images/m04-600x600.jpg 600w, /images/m04-300x300.jpg 300w, /images/m04-200x200.jpg 200w, /images/m04-150x150.jpg 150w"
+               sizes="(max-width: 780px) 100vw, 780px" loading="lazy">
+          <div class="media-banner__info">
+            <h4 class="media-banner__info-title">Eco-Friendly <br />Supplies</h4>
+            <div>
+              <a class="btn btn-white" href="/shop"> PLANTS CARE </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<style>
+    .contact-page {
+        margin-bottom: 8.5rem; /* 136px */
+    }
+    .contact-page__main {
+        border-radius: 6px;
+        overflow: hidden;
+        margin-bottom: 5rem; /* 80px */
+        background: #154747; /* primary */
+    }
+    .contact-page__main-image {
+        width: 100%;
+        height: auto;
+    }
+    .contact-page__main-info {
+        color: #f8f1e3; /* tertiary */
+        padding: 10%;
+    }
+    .contact-page__main-info-header {
+        color: #f8f1e3; /* tertiary */
+    }
+    .contact-page__main-info-link {
+        color: #f8f1e3; /* tertiary */
+        font-size: 0.8125rem; /* 13px */
+        line-height: 1.7;
+        font-weight: 500;
+        display: inline-flex;
+        align-items: center;
+    }
+    .contact-page__main-info-link::after {
+        content: "\e80c";
+        font-family: 'blooms', serif;
+        margin-left: 0.75rem; /* 12px */
+        font-size: 0.4375rem; /* 7px */
+    }
+    .contact-page__banner-grid-wrapper {
+        margin-bottom: 1.875rem; /* 30px */
+    }
+    //.contact-page__banner-grid-wrapper--last {
+    //    margin-bottom: 0;
+    //}
+
+    .media-banner {
+        position: relative;
+        padding: 10%;
+        border-radius: 6px;
+        overflow: hidden;
+    }
+    .media-banner__image {
+        width: 100%;
+        object-fit: cover;
+        position: absolute;
+        z-index: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        height: 100%;
+    }
+    .media-banner__info {
+        z-index: 1;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+    }
+    .media-banner__info-title {
+        font-size: 1.75rem; /* 28px */
+        margin-bottom: 11rem; /* 176px */
+        font-weight: 600;
+        color: #ffffff; /* banner-text */
+    }
+
+    @media (min-width: 768px) { /* md */
+        .contact-page__main-info {
+            padding: 13%;
+        }
+        .contact-page__banner-grid-wrapper {
+            margin-bottom: 0;
+        }
+    }
+</style>

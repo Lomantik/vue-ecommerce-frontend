@@ -1,0 +1,230 @@
+@use 'sass:map';
+@use 'sass:color';
+@use "../tokens/variables" as *;
+
+$enable-rfs: false;
+
+$container-max-widths: $custom-container-max-widths;
+$spacers: $custom-spacers;
+$theme-colors: $custom-theme-colors;
+
+$body-bg: color-token(body-bg);
+$body-color: color-token(primary);
+$body-font-family: font-family-token(base);
+$body-font-size: font-size(base);
+
+$breadcrumb-active-color: color-token(primary);
+$breadcrumb-color: color-token(muted);
+
+$btn-border-radius: border-radius(base);
+$btn-border-width: spacer(button-border);
+$btn-color: color-token(primary);
+$btn-padding-y: spacer(button-padding-y);
+$btn-padding-x: spacer(button-padding-x);
+$btn-focus-box-shadow: none;
+$btn-font-family: font-family-token(base);
+$btn-font-size: font-size(button);
+$btn-font-weight: font-weight(button);
+$btn-line-height: line-height(button);
+$btn-link-color: color-token(primary);
+
+$dropdown-font-size: font-size(dropdown);
+$dropdown-link-active-bg: color-token(menu-bg);
+$dropdown-link-active-color: color-token(link-active);
+$dropdown-link-active-hover-color: color-token(link-hovered);
+$dropdown-link-hover-bg: color-token(menu-bg);
+$dropdown-link-hover-color: color-token(link-hovered);
+$dropdown-link-line-height: line-height(dropdown-link);
+
+$font-size-base: font-size(base);
+
+$grid-gutter-width: gutter(base);
+
+$h1-font-size: font-size(h1);
+$h2-font-size: font-size(h2);
+$h3-font-size: font-size(h3);
+$h4-font-size: font-size(h4);
+$h5-font-size: font-size(h5);
+$h6-font-size: font-size(h6);
+
+$headings-color: color-token(primary);
+$headings-font-family: font-family-token(bitter);
+$headings-font-weight: font-weight(heading);
+$headings-line-height: line-height(heading);
+$headings-margin-bottom: spacer(heading-padding-bottom);
+
+$input-color: color-token(primary);
+$input-font-family: font-family-token('base');
+$input-placeholder-color: color-token(muted);
+$input-border-radius: border-radius(base);
+$input-padding-y: spacer(input-padding-y);
+$input-padding-x: spacer(input-padding-x);
+$input-focus-box-shadow: none;
+
+$line-height-base: line-height(base);
+
+$link-color: color-token(primary);
+$link-decoration: none;
+$link-hover-decoration: none;
+$link-hover-color: color-token(link-hovered);
+
+$nav-link-color: color-token(primary);
+$nav-link-font-family: font-family-token(base);
+$nav-link-hover-color: color-token(link-hovered);
+
+$navbar-light-active-color: color-token(link-active);
+$navbar-light-color: color-token(primary);
+$navbar-light-hover-color: color-token(link-hovered);
+$navbar-nav-link-padding-x: spacer(nav-link-x);
+
+$paragraph-margin-bottom: spacer(paragraph-padding-bottom);
+
+$spacer: spacer(default);
+
+$text-color: color-token(primary);
+$text-muted: color-token(muted);
+
+/* Bootstrap required */
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+
+$gutters: map-merge(
+    $gutters,
+    $custom-gutters
+);
+
+$font-sizes: map-merge($font-sizes, $custom-font-sizes);
+
+/* Bootstrap utilities */
+@import "bootstrap/scss/utilities";
+
+$utilities: map-merge(
+    $utilities,
+    (
+      "line-height": (
+        property: line-height,
+        class: lh,
+        values: $custom-line-height
+      ),
+      "width": map-merge(
+          map-get($utilities, "width"),
+          (
+            responsive: true
+          )
+      ),
+    ));
+
+/* Utilities API (classes generation) */
+@import "bootstrap/scss/utilities/api";
+
+/* Other Bootstrap */
+@import "bootstrap/scss/bootstrap";
+
+$typography-map: (
+  "body": (
+    null: font-size(base),
+    sm: font-size(base),
+    md: font-size(base),
+    lg: font-size(base),
+    xl: font-size(base),
+    xxl: font-size(base),
+  ),
+  "h1": (
+    null: font-size(h1),
+    sm: font-size(h1),
+    md: font-size(h1-md),
+    lg: font-size(h1-lg),
+    xl: font-size(h1-lg),
+    xxl: font-size(h1-lg),
+  ),
+  "h2": (
+    null: font-size(h2),
+    sm: font-size(h2),
+    md: font-size(h2-md),
+    lg: font-size(h2-lg),
+    xl: font-size(h2-lg),
+    xxl: font-size(h2-lg),
+  ),
+  "h3": (
+    null: font-size(h3),
+    sm: font-size(h3),
+    md: font-size(h3-md),
+    lg: font-size(h3-lg),
+    xl: font-size(h3-lg),
+    xxl: font-size(h3-lg),
+  ),
+  "h4": (
+    null: font-size(h4),
+    sm: font-size(h4),
+    md: font-size(h4-md),
+    lg: font-size(h4-lg),
+    xl: font-size(h4-lg),
+    xxl: font-size(h4-lg),
+  ),
+  "h5": (
+    null: font-size(h5),
+    sm: font-size(h5),
+    md: font-size(h5-md),
+    lg: font-size(h5-lg),
+    xl: font-size(h5-lg),
+    xxl: font-size(h5-lg),
+  ),
+  "h6": (
+    null: font-size(h6),
+    sm: font-size(h6),
+    md: font-size(h6-md),
+    lg: font-size(h6-lg),
+    xl: font-size(h6-lg),
+    xxl: font-size(h6-lg),
+  ),
+  "p": (
+    null: font-size(p),
+    sm: font-size(p),
+    md: font-size(p),
+    lg: font-size(p),
+    xl: font-size(p),
+    xxl: font-size(p),
+  )
+);
+
+@each $element, $breakpoints in $typography-map {
+  #{$element} {
+    @each $breakpoint, $size in $breakpoints {
+      @if $breakpoint == null {
+        font-size: $size;
+      } @else {
+        @include media-breakpoint-up($breakpoint) {
+          font-size: $size;
+        }
+      }
+    }
+  }
+}
+
+:root {
+  --bs-body-font-family: #{font-family-token('base')};
+  --bs-body-color: #{color-token(primary)};
+  --bs-body-bg: #{color-token(body-bg)};
+
+  --bs-heading-color: #{color-token(primary)};
+
+  --bs-link-color: #{color-token(primary)};
+  --bs-link-hover-color: color-token(link-hovered);
+
+  --color-accent: color-token(primary);
+}
+
+p {
+  line-height: line-height(p);
+}
+
+@each $name, $color in $theme-colors {
+  .btn-#{$name} {
+    --bs-btn-color: #{contrast-color($name)};
+    --bs-btn-bg: #{$color};
+    --bs-btn-hover-bg: #{$color};
+    --bs-btn-hover-color: #{contrast-color($name)};
+  }
+}

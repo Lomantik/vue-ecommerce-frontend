@@ -1,0 +1,1878 @@
+[
+  {
+    "id": 1,
+    "slug": "anthurium-andreanum–flamingo-flower",
+    "title": "Anthurium Andreanum – Flamingo Flower",
+    "type": "simple",
+    "categoryIds": [1],
+    "primaryCategoryId": 1,
+    "price": 18.0,
+    "salePrice": 15.0,
+    "description": "default_description",
+    "shortDescription": "Named for its bright waxy blooms, the Flamingo Flower is a gorgeous ornamental Anthurium, boasting glossy heart-shaped leaves and long-lasting flowers. Most of these flowering Anthuriums are cultivars of Anthurium andreanum, but to make new varieties with unique inflorescences and leaves, the plants are often crossed with other species, creating a whole rainbow of different blooms colors and leaf shapes.",
+    "sku": "47820-1",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 40,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 40,
+    "qty": 500,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": null,
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [12, 11, 2, 10],
+    "showInCatalog": true,
+    "active": true
+  },
+  {
+    "id": 2,
+    "slug": "calathea-lancifolia–rattlesnake-plant",
+    "title": "Calathea Lancifolia – Rattlesnake Plant",
+    "type": "simple",
+    "categoryIds": [2],
+    "primaryCategoryId": 2,
+    "price": 20.0,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "Calathea lancifolia is a perfect houseplant for pattern lovers who like to decorate wild. Its bright green, wavy leaves are striped with alternating ovals of dark green and accented by a rich purple underside. The plant gets its name from its lance-shaped foliage, and the leaves grow more elongated as the plant matures. Its bushy, compact growth habit makes it ideal as a medium sized floor plant or tabletop accent — anywhere that needs a little extra green and a tropical feel.",
+    "sku": "47820",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 39,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 39,
+    "qty": 300,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": null,
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [3, 10, 12, 13],
+    "showInCatalog": true,
+    "active": true
+  },
+  {
+    "id": 3,
+    "slug": "euphorbia-trigona–14-pot",
+    "title": "Euphorbia Trigona – 14″ Pot",
+    "type": "simple",
+    "categoryIds": [4],
+    "primaryCategoryId": 4,
+    "price": 248.0,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "Euphorbia trigona is a gorgeous, branched succulent with a cactus-like appearance and upright growth habit, perfect for a very sunny spot. These specimens are quite full and are simply huge! They grows little leaves from branches periodically.",
+    "sku": "43850",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 34,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 34,
+    "qty": 250,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": null,
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [10, 9, 11, 8],
+    "showInCatalog": true,
+    "active": true
+  },
+  {
+    "id": 4,
+    "slug": "hoya-carnosa-krimson-princess",
+    "title": "Hoya Carnosa ‘Krimson Princess’",
+    "type": "simple",
+    "categoryIds": [2, 5],
+    "primaryCategoryId": 2,
+    "price": 15.0,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "Hoya carnosa ‘Krimson Princess’ is one of our favorite variegated cultivars of the standard Waxplant. Its thick, lanceolate leaves are adorned with creamy yellow to white variegation in the leaf centers. The plant’s vines and new leaves often emerge a bright pink. Growing long, winding vines, this plant is eager to climb, but will happily cascade down the sides of the pot, making it an ideal choice for a trellis or hanging planter.",
+    "sku": "12348",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 31,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 31,
+    "qty": 0,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": null,
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [10, 3, 9, 6],
+    "showInCatalog": true,
+    "active": true
+  },
+  {
+    "id": 5,
+    "slug": "hoya-carnosa-krimson-queen",
+    "title": "Hoya Carnosa ‘Krimson Queen’",
+    "type": "simple",
+    "categoryIds": [5],
+    "primaryCategoryId": 5,
+    "price": 16.5,
+    "salePrice": 14.0,
+    "description": "default_description",
+    "shortDescription": "Hoya carnosa ‘Krimson Queen’ is a variegated cultivar of the standard Wax Plant. Whereas the ‘Krimson Princess’ has variegation on the leaf centers, the Krimson Queen boasts white to pink variegation around the leaf margins. The plant’s vines and new leaves often emerge bright pink, with the occasional leaf entirely white. Growing long, winding vines, this plant is eager to climb, but will happily cascade down the sides of its pot. Hoya ‘Krimson Queen’ is an ideal choice for a trellis or hanging planter.",
+    "sku": "31260",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 35,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 35,
+    "qty": 1000,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": null,
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [2, 3, 6, 14],
+    "showInCatalog": true,
+    "active": true
+  },
+  {
+    "id": 6,
+    "slug": "hoya-obovata",
+    "title": "Hoya Obovata",
+    "type": "simple",
+    "categoryIds": [2],
+    "primaryCategoryId": 2,
+    "price": 23.0,
+    "salePrice": 18.0,
+    "description": "default_description",
+    "shortDescription": "Hoya obovata is one of our very favorite specimen plants. It has large, deep green oval-shaped leaves, often speckled with flecks of white and pink. The leaves emerge on long tendrils that shoot out dramatically from the base of the plant. Over time, these vines grow to be quite long, eventually setting sweet-smelling flowers that look like little clusters of pink stars. Hoya obovata will happily climb up a stake or trellis, or set your pot in a hanger or on high shelf and let the vines cascade.",
+    "sku": "23664",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 29,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 29,
+    "qty": 120,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": null,
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [5, 1, 9, 8],
+    "showInCatalog": true,
+    "active": true
+  },
+  {
+    "id": 7,
+    "slug": "norfolk-island-pine",
+    "title": "Norfolk Island Pine",
+    "type": "configurable",
+    "categoryIds": [4],
+    "primaryCategoryId": 4,
+    "price": null,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "The Norfolk Island Pine isn’t actually a pine at all. Rather, this ancient conifer is a member of the Araucaria genus, found endemic on the tiny Norfolk Island in the Pacific Ocean. Norfolk Island Pines make great houseplants.",
+    "sku": "12360",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 26,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 26,
+    "qty": 540,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": null,
+    "configurableAttributeIds": [1, 2],
+    "variantIds": [15, 16, 17, 19, 20, 21, 22],
+    "defaultVariantId": 15,
+    "relatedProductIds": [4, 12, 6, 9],
+    "showInCatalog": true,
+    "active": true
+  },
+  {
+    "id": 8,
+    "slug": "philodendron-micans",
+    "title": "Philodendron ‘Micans’",
+    "type": "simple",
+    "categoryIds": [1, 3],
+    "primaryCategoryId": 1,
+    "price": 14.2,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "Philodendron hederaceum ‘Micans’ has iridescent, heart-shaped leaves that are velvety to the touch and almost quilted in texture. Depending on the light, the color of the foliage can look deep green or rich purple, with the new leaves emerging chartreuse, edged with pink. Vining in habit, Philodendron ‘Micans’ will cascade elegantly in a hanging planter, or can be trained to climb up a trellis. If you love interesting foliage, this easy to care for plant is a perfect addition to your collection.",
+    "sku": "12362",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 32,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 32,
+    "qty": 52,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": null,
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [6, 13, 9, 12],
+    "showInCatalog": true,
+    "active": true
+  },
+  {
+    "id": 9,
+    "slug": "philodendron-weeks-red-hybrid–17-pot",
+    "title": "Philodendron ‘Weeks Red Hybrid’ – 17″ Pot",
+    "type": "simple",
+    "categoryIds": [5],
+    "primaryCategoryId": 5,
+    "price": 740.0,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "This Philodendron ‘Weeks Red Hybrid’ is the largest aroid we’ve ever offered! This plant has wide triangular leaves with pinkish red stems and veins, visible on the backs of the leaves. The backs of the 2ft+ long leaves have a beautiful red mottling, another feature that makes this Philodendron so collectable!",
+    "sku": "12340",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 30,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 30,
+    "qty": 100,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": {
+      "1": 1,
+      "2": 7
+    },
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [5, 2, 8, 6],
+    "showInCatalog": true,
+    "active": true
+  },
+  {
+    "id": 10,
+    "slug": "resurrection-plant",
+    "title": "Resurrection Plant",
+    "type": "simple",
+    "categoryIds": [3, 6, 7, 8, 9, 10, 11],
+    "primaryCategoryId": 10,
+    "price": 21.0,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "The Resurrection Plant, Selaginella lepidophylla, is a botanical wonder known for its ability to seemingly come back to life again and again — even after completely drying out. Also known as the “Rose of Jericho,” this dramatic little tumbleweed curls into a tight ball during dry weather in its native habitat, only to unfurl its lacy deep green fronds when exposed to moisture once more.",
+    "sku": "89030",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 41,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 41,
+    "qty": 74,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": null,
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [4, 14, 1, 12],
+    "showInCatalog": true,
+    "active": true
+  },
+  {
+    "id": 11,
+    "slug": "scindapsus-pictus-argyraeus",
+    "title": "Scindapsus Pictus ‘Argyraeus’",
+    "type": "simple",
+    "categoryIds": [3],
+    "primaryCategoryId": 3,
+    "price": 32.0,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "Scindapsus pictus ‘Argyraeus’ is an easy to grow vining plant whose light green foliage is spotted with silvery, reflective variegation. The heart-shaped leaves are velvety to the touch and matte in texture, which has led this plant to have the common names Philodendron Silver and Satin Pothos (though botanically it is neither Philodendron nor Pothos). This small-leafed Scindapsus cultivar shows its variegation in a beautiful spotting pattern throughout the leaves.",
+    "sku": "76345",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 33,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 33,
+    "qty": 15,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": {
+      "1": 2,
+      "2": 7
+    },
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [13, 12, 1, 8],
+    "showInCatalog": true,
+    "active": true
+  },
+  {
+    "id": 12,
+    "slug": "dieffenbachia-camouflage",
+    "title": "Dieffenbachia ‘Camouflage’",
+    "type": "grouped",
+    "categoryIds": [3],
+    "primaryCategoryId": 3,
+    "price": null,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "Named for its bright waxy blooms, the Flamingo Flower is a gorgeous ornamental Anthurium, boasting glossy heart-shaped leaves and long-lasting flowers. Most of these flowering Anthuriums are cultivars of Anthurium andreanum, but to make new varieties with unique inflorescences and leaves, the plants are often crossed with other species, creating a whole rainbow of different blooms colors and leaf shapes.",
+    "sku": "56802",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 36,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 36,
+    "qty": 200,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": null,
+    "configurableAttributeIds": null,
+    "variantIds": [9, 11],
+    "defaultVariantId": null,
+    "relatedProductIds": [5, 4, 6, 13],
+    "showInCatalog": true,
+    "active": true
+  },
+  {
+    "id": 13,
+    "slug": "spathiphyllum-sp–peace-lily",
+    "title": "Spathiphyllum Sp. – Peace Lily",
+    "type": "simple",
+    "categoryIds": [4],
+    "primaryCategoryId": 4,
+    "price": 13.0,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "Spathipyllum, also known as Peace Lilies, are popular houseplants due to their simple care, resilience, and air purifying abilities. Members of the Araceae family, these aroids have deep green, glossy leaves that contrast beautifully with a broad variety of containers. Aside from its reputation as an easy houseplant, the Peace Lily is perhaps best known for its beautiful, long-lasting white blooms which tend to emerge in late winter or spring.",
+    "sku": "34502",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 38,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 38,
+    "qty": 134,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": null,
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [8, 9, 12, 10],
+    "showInCatalog": true,
+    "active": true
+  },
+  {
+    "id": 14,
+    "slug": "tillandsia-assortment",
+    "title": "Tillandsia Assortment",
+    "type": "configurable",
+    "categoryIds": [5],
+    "primaryCategoryId": 5,
+    "price": 24.0,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "Discover the vast variety of colors, shapes and textures of Air Plants with our Tillandsia Assortment, a special nursery’s choice selection of our favorite Tillandsia species! Some of these beauties are budding up to bloom, while others boast unique coloration or growth form. Perfect for medium to large terrariums, or simply placed on a dish and displayed on a tabletop, all of these air plants are entirely unique.",
+    "sku": "64356",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 37,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 37,
+    "qty": 378,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": null,
+    "configurableAttributeIds": [1, 2],
+    "variantIds": [15, 18, 21, 24, 25, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39],
+    "defaultVariantId": 15,
+    "relatedProductIds": [5, 3, 11, 10],
+    "showInCatalog": true,
+    "active": true
+  },
+  {
+    "id": 15,
+    "slug": "norfolk-island-pine-beige-l",
+    "title": "Norfolk Island Pine",
+    "type": "simple",
+    "categoryIds": [4],
+    "primaryCategoryId": 4,
+    "price": 12.0,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "The Norfolk Island Pine isn’t actually a pine at all. Rather, this ancient conifer is a member of the Araucaria genus, found endemic on the tiny Norfolk Island in the Pacific Ocean. Norfolk Island Pines make great houseplants.",
+    "sku": "12360-1-6",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 26,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 26,
+    "qty": 15,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": {
+      "1": 1,
+      "2": 6
+    },
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [],
+    "showInCatalog": false,
+    "active": true
+  },
+  {
+    "id": 16,
+    "slug": "norfolk-island-pine-black-l",
+    "title": "Norfolk Island Pine",
+    "type": "simple",
+    "categoryIds": [4],
+    "primaryCategoryId": 4,
+    "price": 13.0,
+    "salePrice": 11.0,
+    "description": "default_description",
+    "shortDescription": "The Norfolk Island Pine isn’t actually a pine at all. Rather, this ancient conifer is a member of the Araucaria genus, found endemic on the tiny Norfolk Island in the Pacific Ocean. Norfolk Island Pines make great houseplants.",
+    "sku": "12360-2-6",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 26,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 26,
+    "qty": 12,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": {
+      "1": 2,
+      "2": 6
+    },
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [],
+    "showInCatalog": false,
+    "active": true
+  },
+  {
+    "id": 17,
+    "slug": "norfolk-island-pine-green-l",
+    "title": "Norfolk Island Pine",
+    "type": "simple",
+    "categoryIds": [4],
+    "primaryCategoryId": 4,
+    "price": 14.0,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "The Norfolk Island Pine isn’t actually a pine at all. Rather, this ancient conifer is a member of the Araucaria genus, found endemic on the tiny Norfolk Island in the Pacific Ocean. Norfolk Island Pines make great houseplants.",
+    "sku": "12360-3-6",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 26,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 26,
+    "qty": 20,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": {
+      "1": 3,
+      "2": 6
+    },
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [],
+    "showInCatalog": false,
+    "active": true
+  },
+  {
+    "id": 18,
+    "slug": "norfolk-island-pine-beige-m",
+    "title": "Norfolk Island Pine",
+    "type": "simple",
+    "categoryIds": [4],
+    "primaryCategoryId": 4,
+    "price": 22.0,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "The Norfolk Island Pine isn’t actually a pine at all. Rather, this ancient conifer is a member of the Araucaria genus, found endemic on the tiny Norfolk Island in the Pacific Ocean. Norfolk Island Pines make great houseplants.",
+    "sku": "12360-1-7",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 26,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 26,
+    "qty": 40,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": {
+      "1": 1,
+      "2": 7
+    },
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [],
+    "showInCatalog": false,
+    "active": true
+  },
+  {
+    "id": 19,
+    "slug": "norfolk-island-pine-black-m",
+    "title": "Norfolk Island Pine",
+    "type": "simple",
+    "categoryIds": [4],
+    "primaryCategoryId": 4,
+    "price": 23.0,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "The Norfolk Island Pine isn’t actually a pine at all. Rather, this ancient conifer is a member of the Araucaria genus, found endemic on the tiny Norfolk Island in the Pacific Ocean. Norfolk Island Pines make great houseplants.",
+    "sku": "12360-2-7",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 26,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 26,
+    "qty": 35,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": {
+      "1": 2,
+      "2": 7
+    },
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [],
+    "showInCatalog": false,
+    "active": true
+  },
+  {
+    "id": 20,
+    "slug": "norfolk-island-pine-green-m",
+    "title": "Norfolk Island Pine",
+    "type": "simple",
+    "categoryIds": [4],
+    "primaryCategoryId": 4,
+    "price": 24.0,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "The Norfolk Island Pine isn’t actually a pine at all. Rather, this ancient conifer is a member of the Araucaria genus, found endemic on the tiny Norfolk Island in the Pacific Ocean. Norfolk Island Pines make great houseplants.",
+    "sku": "12360-3-7",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 26,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 26,
+    "qty": 5,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": {
+      "1": 3,
+      "2": 7
+    },
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [],
+    "showInCatalog": false,
+    "active": true
+  },
+  {
+    "id": 21,
+    "slug": "norfolk-island-pine-beige-s",
+    "title": "Norfolk Island Pine",
+    "type": "simple",
+    "categoryIds": [4],
+    "primaryCategoryId": 4,
+    "price": 32.0,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "The Norfolk Island Pine isn’t actually a pine at all. Rather, this ancient conifer is a member of the Araucaria genus, found endemic on the tiny Norfolk Island in the Pacific Ocean. Norfolk Island Pines make great houseplants.",
+    "sku": "12360-1-8",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 26,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 26,
+    "qty": 10,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": {
+      "1": 1,
+      "2": 8
+    },
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [],
+    "showInCatalog": false,
+    "active": true
+  },
+  {
+    "id": 22,
+    "slug": "norfolk-island-pine-black-s",
+    "title": "Norfolk Island Pine",
+    "type": "simple",
+    "categoryIds": [4],
+    "primaryCategoryId": 4,
+    "price": 33.0,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "The Norfolk Island Pine isn’t actually a pine at all. Rather, this ancient conifer is a member of the Araucaria genus, found endemic on the tiny Norfolk Island in the Pacific Ocean. Norfolk Island Pines make great houseplants.",
+    "sku": "12360-2-8",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 26,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 26,
+    "qty": 14,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": {
+      "1": 2,
+      "2": 8
+    },
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [],
+    "showInCatalog": false,
+    "active": true
+  },
+  {
+    "id": 23,
+    "slug": "norfolk-island-pine-green-s",
+    "title": "Norfolk Island Pine",
+    "type": "simple",
+    "categoryIds": [4],
+    "primaryCategoryId": 4,
+    "price": 34.0,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "The Norfolk Island Pine isn’t actually a pine at all. Rather, this ancient conifer is a member of the Araucaria genus, found endemic on the tiny Norfolk Island in the Pacific Ocean. Norfolk Island Pines make great houseplants.",
+    "sku": "12360-3-8",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 26,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 26,
+    "qty": 21,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": {
+      "1": 3,
+      "2": 8
+    },
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [],
+    "showInCatalog": false,
+    "active": true
+  },
+
+  {
+    "id": 24,
+    "slug": "tillandsia-assortment-green-xl",
+    "title": "Norfolk Island Pine",
+    "type": "simple",
+    "categoryIds": [4],
+    "primaryCategoryId": 4,
+    "price": 17.0,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "Discover the vast variety of colors, shapes and textures of Air Plants with our Tillandsia Assortment, a special nursery’s choice selection of our favorite Tillandsia species! Some of these beauties are budding up to bloom, while others boast unique coloration or growth form. Perfect for medium to large terrariums, or simply placed on a dish and displayed on a tabletop, all of these air plants are entirely unique.",
+    "sku": "64356-1-9",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 26,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 26,
+    "qty": 21,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": {
+      "1": 1,
+      "2": 9
+    },
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [],
+    "showInCatalog": false,
+    "active": true
+  },
+  {
+    "id": 25,
+    "slug": "tillandsia-assortment-green-xs",
+    "title": "Norfolk Island Pine",
+    "type": "simple",
+    "categoryIds": [4],
+    "primaryCategoryId": 4,
+    "price": 10.0,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "Discover the vast variety of colors, shapes and textures of Air Plants with our Tillandsia Assortment, a special nursery’s choice selection of our favorite Tillandsia species! Some of these beauties are budding up to bloom, while others boast unique coloration or growth form. Perfect for medium to large terrariums, or simply placed on a dish and displayed on a tabletop, all of these air plants are entirely unique.",
+    "sku": "64356-1-10",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 26,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 26,
+    "qty": 21,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": {
+      "1": 1,
+      "2": 10
+    },
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [],
+    "showInCatalog": false,
+    "active": true
+  },
+  {
+    "id": 26,
+    "slug": "tillandsia-assortment-black-xl",
+    "title": "Norfolk Island Pine",
+    "type": "simple",
+    "categoryIds": [4],
+    "primaryCategoryId": 4,
+    "price": 24.0,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "Discover the vast variety of colors, shapes and textures of Air Plants with our Tillandsia Assortment, a special nursery’s choice selection of our favorite Tillandsia species! Some of these beauties are budding up to bloom, while others boast unique coloration or growth form. Perfect for medium to large terrariums, or simply placed on a dish and displayed on a tabletop, all of these air plants are entirely unique.",
+    "sku": "64356-2-9",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 26,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 26,
+    "qty": 21,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": {
+      "1": 2,
+      "2": 9
+    },
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [],
+    "showInCatalog": false,
+    "active": true
+  },
+  {
+    "id": 27,
+    "slug": "tillandsia-assortment-black-xs",
+    "title": "Norfolk Island Pine",
+    "type": "simple",
+    "categoryIds": [4],
+    "primaryCategoryId": 4,
+    "price": 25.0,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "Discover the vast variety of colors, shapes and textures of Air Plants with our Tillandsia Assortment, a special nursery’s choice selection of our favorite Tillandsia species! Some of these beauties are budding up to bloom, while others boast unique coloration or growth form. Perfect for medium to large terrariums, or simply placed on a dish and displayed on a tabletop, all of these air plants are entirely unique.",
+    "sku": "64356-2-10",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 26,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 26,
+    "qty": 21,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": {
+      "1": 2,
+      "2": 10
+    },
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [],
+    "showInCatalog": false,
+    "active": true
+  },
+  {
+    "id": 28,
+    "slug": "tillandsia-assortment-green-xl",
+    "title": "Norfolk Island Pine",
+    "type": "simple",
+    "categoryIds": [4],
+    "primaryCategoryId": 4,
+    "price": 38.0,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "Discover the vast variety of colors, shapes and textures of Air Plants with our Tillandsia Assortment, a special nursery’s choice selection of our favorite Tillandsia species! Some of these beauties are budding up to bloom, while others boast unique coloration or growth form. Perfect for medium to large terrariums, or simply placed on a dish and displayed on a tabletop, all of these air plants are entirely unique.",
+    "sku": "64356-3-9",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 26,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 26,
+    "qty": 21,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": {
+      "1": 3,
+      "2": 9
+    },
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [],
+    "showInCatalog": false,
+    "active": true
+  },
+  {
+    "id": 29,
+    "slug": "tillandsia-assortment-green-xs",
+    "title": "Norfolk Island Pine",
+    "type": "simple",
+    "categoryIds": [4],
+    "primaryCategoryId": 4,
+    "price": 39.0,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "Discover the vast variety of colors, shapes and textures of Air Plants with our Tillandsia Assortment, a special nursery’s choice selection of our favorite Tillandsia species! Some of these beauties are budding up to bloom, while others boast unique coloration or growth form. Perfect for medium to large terrariums, or simply placed on a dish and displayed on a tabletop, all of these air plants are entirely unique.",
+    "sku": "64356-3-10",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 26,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 26,
+    "qty": 21,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": {
+      "1": 3,
+      "2": 10
+    },
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [],
+    "showInCatalog": false,
+    "active": true
+  },
+  {
+    "id": 30,
+    "slug": "tillandsia-assortment-brown-l",
+    "title": "Norfolk Island Pine",
+    "type": "simple",
+    "categoryIds": [4],
+    "primaryCategoryId": 4,
+    "price": 17.0,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "Discover the vast variety of colors, shapes and textures of Air Plants with our Tillandsia Assortment, a special nursery’s choice selection of our favorite Tillandsia species! Some of these beauties are budding up to bloom, while others boast unique coloration or growth form. Perfect for medium to large terrariums, or simply placed on a dish and displayed on a tabletop, all of these air plants are entirely unique.",
+    "sku": "64356-4-6",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 26,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 26,
+    "qty": 21,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": {
+      "1": 4,
+      "2": 6
+    },
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [],
+    "showInCatalog": false,
+    "active": true
+  },
+  {
+    "id": 31,
+    "slug": "tillandsia-assortment-brown-m",
+    "title": "Norfolk Island Pine",
+    "type": "simple",
+    "categoryIds": [4],
+    "primaryCategoryId": 4,
+    "price": 16.0,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "Discover the vast variety of colors, shapes and textures of Air Plants with our Tillandsia Assortment, a special nursery’s choice selection of our favorite Tillandsia species! Some of these beauties are budding up to bloom, while others boast unique coloration or growth form. Perfect for medium to large terrariums, or simply placed on a dish and displayed on a tabletop, all of these air plants are entirely unique.",
+    "sku": "64356-4-7",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 26,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 26,
+    "qty": 21,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": {
+      "1": 4,
+      "2": 7
+    },
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [],
+    "showInCatalog": false,
+    "active": true
+  },
+  {
+    "id": 32,
+    "slug": "tillandsia-assortment-brown-s",
+    "title": "Norfolk Island Pine",
+    "type": "simple",
+    "categoryIds": [4],
+    "primaryCategoryId": 4,
+    "price": 15.0,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "Discover the vast variety of colors, shapes and textures of Air Plants with our Tillandsia Assortment, a special nursery’s choice selection of our favorite Tillandsia species! Some of these beauties are budding up to bloom, while others boast unique coloration or growth form. Perfect for medium to large terrariums, or simply placed on a dish and displayed on a tabletop, all of these air plants are entirely unique.",
+    "sku": "64356-4-8",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 26,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 26,
+    "qty": 21,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": {
+      "1": 4,
+      "2": 8
+    },
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [],
+    "showInCatalog": false,
+    "active": true
+  },
+  {
+    "id": 33,
+    "slug": "tillandsia-assortment-brown-xl",
+    "title": "Norfolk Island Pine",
+    "type": "simple",
+    "categoryIds": [4],
+    "primaryCategoryId": 4,
+    "price": 20.0,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "Discover the vast variety of colors, shapes and textures of Air Plants with our Tillandsia Assortment, a special nursery’s choice selection of our favorite Tillandsia species! Some of these beauties are budding up to bloom, while others boast unique coloration or growth form. Perfect for medium to large terrariums, or simply placed on a dish and displayed on a tabletop, all of these air plants are entirely unique.",
+    "sku": "64356-4-9",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 26,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 26,
+    "qty": 21,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": {
+      "1": 4,
+      "2": 9
+    },
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [],
+    "showInCatalog": false,
+    "active": true
+  },
+  {
+    "id": 34,
+    "slug": "tillandsia-assortment-brown-xs",
+    "title": "Norfolk Island Pine",
+    "type": "simple",
+    "categoryIds": [4],
+    "primaryCategoryId": 4,
+    "price": 10.0,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "Discover the vast variety of colors, shapes and textures of Air Plants with our Tillandsia Assortment, a special nursery’s choice selection of our favorite Tillandsia species! Some of these beauties are budding up to bloom, while others boast unique coloration or growth form. Perfect for medium to large terrariums, or simply placed on a dish and displayed on a tabletop, all of these air plants are entirely unique.",
+    "sku": "64356-4-10",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 26,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 26,
+    "qty": 21,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": {
+      "1": 4,
+      "2": 10
+    },
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [],
+    "showInCatalog": false,
+    "active": true
+  },
+  {
+    "id": 35,
+    "slug": "tillandsia-assortment-white-l",
+    "title": "Norfolk Island Pine",
+    "type": "simple",
+    "categoryIds": [4],
+    "primaryCategoryId": 4,
+    "price": 20.0,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "Discover the vast variety of colors, shapes and textures of Air Plants with our Tillandsia Assortment, a special nursery’s choice selection of our favorite Tillandsia species! Some of these beauties are budding up to bloom, while others boast unique coloration or growth form. Perfect for medium to large terrariums, or simply placed on a dish and displayed on a tabletop, all of these air plants are entirely unique.",
+    "sku": "64356-5-6",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 26,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 26,
+    "qty": 21,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": {
+      "1": 5,
+      "2": 6
+    },
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [],
+    "showInCatalog": false,
+    "active": true
+  },
+  {
+    "id": 36,
+    "slug": "tillandsia-assortment-white-m",
+    "title": "Norfolk Island Pine",
+    "type": "simple",
+    "categoryIds": [4],
+    "primaryCategoryId": 4,
+    "price": 18.0,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "Discover the vast variety of colors, shapes and textures of Air Plants with our Tillandsia Assortment, a special nursery’s choice selection of our favorite Tillandsia species! Some of these beauties are budding up to bloom, while others boast unique coloration or growth form. Perfect for medium to large terrariums, or simply placed on a dish and displayed on a tabletop, all of these air plants are entirely unique.",
+    "sku": "64356-5-7",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 26,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 26,
+    "qty": 21,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": {
+      "1": 5,
+      "2": 7
+    },
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [],
+    "showInCatalog": false,
+    "active": true
+  },
+  {
+    "id": 37,
+    "slug": "tillandsia-assortment-white-s",
+    "title": "Norfolk Island Pine",
+    "type": "simple",
+    "categoryIds": [4],
+    "primaryCategoryId": 4,
+    "price": 16.0,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "Discover the vast variety of colors, shapes and textures of Air Plants with our Tillandsia Assortment, a special nursery’s choice selection of our favorite Tillandsia species! Some of these beauties are budding up to bloom, while others boast unique coloration or growth form. Perfect for medium to large terrariums, or simply placed on a dish and displayed on a tabletop, all of these air plants are entirely unique.",
+    "sku": "64356-5-8",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 26,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 26,
+    "qty": 21,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": {
+      "1": 5,
+      "2": 8
+    },
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [],
+    "showInCatalog": false,
+    "active": true
+  },
+  {
+    "id": 38,
+    "slug": "tillandsia-assortment-white-xl",
+    "title": "Norfolk Island Pine",
+    "type": "simple",
+    "categoryIds": [4],
+    "primaryCategoryId": 4,
+    "price": 24.0,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "Discover the vast variety of colors, shapes and textures of Air Plants with our Tillandsia Assortment, a special nursery’s choice selection of our favorite Tillandsia species! Some of these beauties are budding up to bloom, while others boast unique coloration or growth form. Perfect for medium to large terrariums, or simply placed on a dish and displayed on a tabletop, all of these air plants are entirely unique.",
+    "sku": "64356-5-9",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 26,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 26,
+    "qty": 21,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": {
+      "1": 5,
+      "2": 9
+    },
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [],
+    "showInCatalog": false,
+    "active": true
+  },
+  {
+    "id": 39,
+    "slug": "tillandsia-assortment-white-xs",
+    "title": "Norfolk Island Pine",
+    "type": "simple",
+    "categoryIds": [4],
+    "primaryCategoryId": 4,
+    "price": 12.0,
+    "salePrice": null,
+    "description": "default_description",
+    "shortDescription": "Discover the vast variety of colors, shapes and textures of Air Plants with our Tillandsia Assortment, a special nursery’s choice selection of our favorite Tillandsia species! Some of these beauties are budding up to bloom, while others boast unique coloration or growth form. Perfect for medium to large terrariums, or simply placed on a dish and displayed on a tabletop, all of these air plants are entirely unique.",
+    "sku": "64356-5-10",
+    "tags": ["Green", "Plant", "Pot"],
+    "images": [
+      {
+        "id": 26,
+        "order": 1
+      },
+      {
+        "id": 27,
+        "order": 2
+      },
+      {
+        "id": 28,
+        "order": 3
+      }
+    ],
+    "mainImageId": 26,
+    "qty": 21,
+    "shipping": {
+      "weight": 2.3,
+      "dimensions": {
+        "length": 90,
+        "width": 60,
+        "height": 90,
+        "unit": "cm"
+      }
+    },
+    "attributes": {
+      "1": 5,
+      "2": 10
+    },
+    "configurableAttributeIds": null,
+    "variantIds": null,
+    "defaultVariantId": null,
+    "relatedProductIds": [],
+    "showInCatalog": false,
+    "active": true
+  }
+]

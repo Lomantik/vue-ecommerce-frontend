@@ -1,0 +1,195 @@
+@use 'sass:map';
+@use '../_bootstrap-bridge.scss' as *;
+
+$custom-theme-colors: (
+  primary: #154747,
+  secondary: #ffd0ad,
+  tertiary: #f8f1e3,
+  muted: #6c757d,
+  'white': #ffffff,
+  footer-text: #ffffff,
+  footer-bg: #154747,
+  banner-text: #ffffff,
+  hero-text: #ffffff,
+  grayer: #000000,
+  menu-bg: #ffffff,
+  menu-item-bg: #154747,
+  link-hovered: #1468A0,
+  link-active: #6b6b6b,
+  header-border: #ebebeb,
+  header-bg: #ffffff,
+  promo-bg: #154747,
+  promo-text: #ffffff,
+  stars-empty: #ffcd00,
+  stars-filled: #ffd0ad,
+  body-bg: #ffffff,
+  border: #ebebeb,
+  border-tabs: #efefef,
+  qty-border: #217171,
+  form-border: #154747,
+  table-header: #090909,
+  review-name: #090909,
+  review-date: #4f4f4f,
+);
+@function color-token($key) {
+  @return map.get($custom-theme-colors, $key);
+}
+
+$custom-contrast-colors: (
+  primary: white,
+  secondary: primary,
+  white: primary
+);
+@function contrast-color($key) {
+  @if map-has-key($custom-contrast-colors, $key) {
+    @return map.get($custom-contrast-colors, $key);
+  }
+  @return color-contrast(color-token($key));
+}
+
+
+$custom-border-radius: (
+  base: 624.9375rem
+);
+@function border-radius($key) {
+  @return map.get($custom-border-radius, $key);
+}
+
+$custom-content: (
+  big-arrow-right: "\e80c",
+  arrow-down: "\e800",
+  arrow-right: "\e801",
+  mobile-arrow-down: "\e802",
+  star-empty: "\e805",
+  star-filled: "\e806",
+  stars-empty: "\e805 \e805 \e805 \e805 \e805",
+  stars-filled: "\e806 \e806 \e806 \e806 \e806",
+  minus: "\e80b",
+  plus: "\e80a",
+  bird: "\f202",
+  f: "\f203",
+  handset: "\f608",
+);
+@function content-token($key) {
+  @return map.get($custom-content, $key);
+}
+
+$custom-container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1260px
+);
+
+$custom-font-family: (
+  base: ('Spline Sans', system-ui, -apple-system, sans-serif),
+  bitter: ('Bitter', Georgia, serif),
+  blooms: ('blooms', serif),
+  social-logos: ('social-logos', monospace)
+);
+@function font-family-token($key) {
+  @return map.get($custom-font-family, $key);
+}
+
+// Font Sizes
+$custom-font-sizes: (
+  h1: 2.25rem, // 36px
+  h1-md: 2.625rem, // 42px
+  h1-lg: 3.375rem, // 54px
+  h2: 1.75rem, // 28px
+  h2-md: 2.25rem, // 36px
+  h2-lg: 2.75rem, // 44px
+  h3: 1.5rem, // 24px
+  h3-md: 1.75rem, // 28px
+  h3-lg: 2.125rem, // 34px
+  h4: 1.125rem, // 18px
+  h4-md: 1.25rem, // 20px
+  h4-lg: 1.75rem, // 28px
+  h5: 1rem, // 16px
+  h5-md: 1.125rem, // 18px
+  h5-lg: 1.375rem, // 22px
+  h6: 0.875rem, // 14px
+  h6-md: 1rem, // 16px
+  h6-lg: 1rem, // 16px
+  base: 1.0625rem, // 17px
+  p: 1.0625rem, // 17px
+  footer: 0.875rem, // 14px
+  footer-title: 1.75rem, // 28px
+  footer-contact-link: 0.8125rem, // 13px
+  footer-nav-links: 0.75rem, // 12px
+  subfooter: 0.75rem, // 12px
+  link-arrow: 0.4375rem, // 7px
+  button: 0.875rem, // 14px
+  dropdown: 0.875rem, // 14px
+);
+@function font-size($key) {
+  @return map.get($custom-font-sizes, $key);
+}
+
+$custom-font-weight: (
+  heading: 500,
+  button: 500,
+);
+@function font-weight($key) {
+  @return map.get($custom-font-weight, $key);
+}
+
+$custom-line-height: (
+  sm: 1.25,
+  base: 1.75,
+  lg: 2,
+  p: 1.7,
+  heading: 1.45,
+  footer: 1,
+  footer-text: 1.714285714285714,
+  footer-link: 1.846153846153846,
+  footer-link-arrow: 3.428571428571429,
+  button: 1.428571428571429,
+  dropdown-link: 1.1,
+);
+@function line-height($key) {
+  @return map.get($custom-line-height, $key);
+}
+
+$spacer: 1rem !default;
+$custom-spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  default: 0.1875rem, // 3px
+  footer-title: 1.5rem, // 24px
+  footer-text: 2rem, // 32px
+  footer-contact-link: 2rem, // 32px
+  link-arrow: 0.75rem, // 12px
+  heading-padding-bottom: 1rem, // 16px
+  paragraph-padding-bottom: 1rem, // 16px
+  button-border: 0,
+  button-padding-y: 0.875rem, // 14px
+  button-padding-x: 2.125rem, // 34px
+  input-padding-y: 0.875rem, // 14px
+  input-padding-x: 0.4375rem, // 7px
+  nav-link-x: 1.25rem, // 20px
+);
+@function spacer($key) {
+  @return map.get($custom-spacers, $key);
+}
+
+$custom-gutters: (
+  0: spacer(0),
+  1: spacer(1),
+  2: spacer(2),
+  3: spacer(3),
+  4: spacer(4),
+  5: spacer(5),
+  base: 30px,
+  30: 30px,
+  40: 40px,
+  60: 60px,
+);
+@function gutter($key) {
+  @return map.get($custom-gutters, $key);
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "slug": "about",
+    "title": "About",
+    "content": "about",
+    "showTitle": false
+  },
+  {
+    "id": 2,
+    "slug": "contact",
+    "title": "Contact",
+    "content": "contact",
+    "showTitle": false
+  }
+]

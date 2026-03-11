@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "color",
+    "title": "Color",
+    "options": [
+      {"id": 1, "title": "Beige", "value": "beige"},
+      {"id": 2, "title": "Black", "value": "black"},
+      {"id": 3, "title": "Green", "value": "green"},
+      {"id": 4, "title": "Brown", "value": "brown"},
+      {"id": 5, "title": "White", "value": "white"}
+    ]
+  },
+  {
+    "id": 2,
+    "name": "size",
+    "title": "Size",
+    "options": [
+      {"id": 6, "title": "Large", "value": "l"},
+      {"id": 7, "title": "Medium", "value": "m"},
+      {"id": 8, "title": "Small", "value": "s"},
+      {"id": 9, "title": "X-Large", "value": "xl"},
+      {"id": 10, "title": "X-Small", "value": "xs"}
+    ]
+  }
+]
