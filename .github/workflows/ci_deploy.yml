@@ -62,7 +62,7 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: npm run build -- --mode github-pages
+        run: npm run build-only -- --mode github-pages
 
       - name: Pages fallback hack
         run: cp dist/index.html dist/404.html
