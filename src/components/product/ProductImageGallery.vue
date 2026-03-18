@@ -1,29 +1,117 @@
 <script setup lang="ts">
 import ResponsiveImage from '@/components/ui/ResponsiveImage.vue'
 import type { Product } from '@/types/product.ts'
+import { Swiper, SwiperSlide } from 'swiper/vue'
+import { Navigation, Thumbs, Zoom } from 'swiper/modules'
+import { computed, onMounted, onUnmounted, reactive, ref } from 'vue'
+import type { Swiper as SwiperType } from 'swiper'
 
 defineProps<{
   product: Product
 }>()
+
+const thumbsSwiper = ref<SwiperType | null>(null)
+const setThumbsSwiper = (swiper: SwiperType): void => {
+  thumbsSwiper.value = swiper
+}
+
+const zoomState = reactive({
+  active: false,
+  mouseX: 50,
+  mouseY: 50,
+})
+
+const isTouchDevice = ref(false)
+const checkDevice = () => {
+  isTouchDevice.value = window.matchMedia('(pointer: coarse)').matches
+}
+const swiperZoomEnabled = computed(() => {
+  return isTouchDevice.value
+})
+const handleMouseEnter = () => {
+  if (!isTouchDevice.value) zoomState.active = true
+}
+const handleMouseMove = (e: MouseEvent) => {
+  if (isTouchDevice.value) return
+
+  const target = e.currentTarget as HTMLElement
+  const rect = target.getBoundingClientRect()
+
+  zoomState.mouseX = ((e.clientX - rect.left) / rect.width) * 100
+  zoomState.mouseY = ((e.clientY - rect.top) / rect.height) * 100
+}
+const handleMouseLeave = () => {
+  zoomState.active = false
+}
+const imageStyle = computed(() => {
+  if (isTouchDevice.value) return {}
+
+  return {
+    transform: zoomState.active ? 'scale(2)' : 'scale(1)',
+    transformOrigin: `${zoomState.mouseX}% ${zoomState.mouseY}%`,
+  }
+})
+
+onMounted(() => {
+  checkDevice()
+  window.matchMedia('(pointer: coarse)').addEventListener('change', checkDevice)
+})
+onUnmounted(() => {
+  window.matchMedia('(pointer: coarse)').removeEventListener('change', checkDevice)
+})
 </script>
 
 <template>
   <div class="image-gallery">
-    <ResponsiveImage
-      :image-key="product.mainImageId"
-      class="image-gallery__main-image"
-      loading="lazy"
-    />
-    <div class="image-gallery__thumbnails">
-      <ResponsiveImage
-        class="image-gallery__thumbnails-thumbnail"
-        :image-key="image.id"
-        v-for="image in product.images"
-        :key="image.id"
-        loading="lazy"
-        :class="{ 'image-gallery__thumbnails-thumbnail--active': image.id === product.mainImageId }"
-      />
-    </div>
+    <Swiper
+      :navigation="{
+        prevEl: '.image-gallery__arrow--prev',
+        nextEl: '.image-gallery__arrow--next',
+      }"
+      :modules="[Navigation, Thumbs, Zoom]"
+      :slides-per-view="1"
+      :space-between="0"
+      :rewind="true"
+      :thumbs="{ swiper: thumbsSwiper }"
+      :key="isTouchDevice ? 'touch' : 'desktop'"
+      :zoom="swiperZoomEnabled"
+    >
+      <SwiperSlide v-for="image in product.images" :key="product.id">
+        <div
+          @mouseenter="handleMouseEnter"
+          @mousemove="handleMouseMove"
+          @mouseleave="handleMouseLeave"
+          class="image-gallery__main-image-container swiper-zoom-container"
+          :class="{ 'overflow-hidden': !isTouchDevice }"
+        >
+          <ResponsiveImage
+            :image-key="image.id"
+            class="image-gallery__main-image"
+            loading="lazy"
+            :style="imageStyle"
+          />
+        </div>
+      </SwiperSlide>
+      <button class="image-gallery__arrow image-gallery__arrow--prev"><span></span></button>
+      <button class="image-gallery__arrow image-gallery__arrow--next"><span></span></button>
+    </Swiper>
+    <Swiper
+      :modules="[Thumbs]"
+      :slides-per-view="4"
+      space-between="8"
+      :watch-slides-progress="true"
+      @swiper="setThumbsSwiper"
+    >
+      <SwiperSlide class="image-gallery__thumb" v-for="image in product.images" :key="image.id">
+        <ResponsiveImage
+          class="image-gallery__thumb-image"
+          :image-key="image.id"
+          loading="lazy"
+          :wdt="200"
+          :draggable="false"
+        />
+      </SwiperSlide>
+    </Swiper>
   </div>
 </template>
 
@@ -32,22 +120,56 @@ defineProps<{
 
 .image-gallery {
   width: 100%;
+  position: relative;
+  &__main-image-container {
+    position: relative;
+  }
   &__main-image {
     width: 100%;
     height: auto;
     margin-bottom: 9px;
     border-radius: 6px;
   }
-  &__thumbnails {
-    display: flex;
-    gap: 8px;
-    &-thumbnail {
-      height: 90px;
-      width: 90px;
-      border-radius: 6px;
+  &__thumb {
+    height: 90px;
+    width: 90px !important;
+    padding: 1px;
+    border-radius: 6px;
+    &.swiper-slide-thumb-active {
       padding: 2px;
-      &--active {
-        border: 1px solid black;
+      border: 1px solid black;
+    }
+    &-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+  }
+  &__arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    font-size: pxtorem(14px);
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    border: 1px solid color-token(primary);
+    color: color-token(primary);
+    margin-top: pxtorem(-23px);
+    background: color-token('white');
+    &--prev {
+      left: pxtorem(30px);
+      & > span::after {
+        font-family: font-family-token(blooms);
+        content: content-token(big-arrow-left);
+      }
+    }
+    &--next {
+      right: pxtorem(30px);
+      & > span::after {
+        font-family: font-family-token(blooms);
+        content: content-token(big-arrow-right);
       }
     }
   }
