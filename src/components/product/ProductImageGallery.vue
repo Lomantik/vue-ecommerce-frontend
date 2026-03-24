@@ -3,13 +3,19 @@ import ResponsiveImage from '@/components/ui/ResponsiveImage.vue'
 import type { Product } from '@/types/product.ts'
 import { Swiper, SwiperSlide } from 'swiper/vue'
 import { Navigation, Thumbs, Zoom } from 'swiper/modules'
-import { computed, onMounted, onUnmounted, reactive, ref } from 'vue'
+import { computed, onMounted, onUnmounted, reactive, ref, watch } from 'vue'
 import type { Swiper as SwiperType } from 'swiper'
+import ProductLightbox from '@/components/product/ProductLightbox.vue'
+import ProductZoom from '@/components/ui/ProductZoom.vue'
 
 defineProps<{
   product: Product
 }>()
 
+const mainSwiper = ref<SwiperType | null>(null)
+const setMainSwiper = (swiper: SwiperType): void => {
+  mainSwiper.value = swiper
+}
 const thumbsSwiper = ref<SwiperType | null>(null)
 const setThumbsSwiper = (swiper: SwiperType): void => {
   thumbsSwiper.value = swiper
@@ -51,6 +57,14 @@ const imageStyle = computed(() => {
     transformOrigin: `${zoomState.mouseX}% ${zoomState.mouseY}%`,
   }
 })
+const showLightbox = ref<boolean>(false)
+
+const activeIndex = ref<number>(0)
+const handleSlideChange = (swiper: SwiperType): void => {
+  if (activeIndex.value !== swiper.realIndex) {
+    activeIndex.value = swiper.realIndex
+  }
+}
 
 onMounted(() => {
   checkDevice()
@@ -59,10 +73,25 @@ onMounted(() => {
 onUnmounted(() => {
   window.matchMedia('(pointer: coarse)').removeEventListener('change', checkDevice)
 })
+
+watch(
+  () => activeIndex.value,
+  (index) => {
+    mainSwiper.value?.slideTo(index)
+  },
+)
 </script>
 
 <template>
+  <ProductLightbox
+    :product="product"
+    v-model:visible="showLightbox"
+    v-model:active-index="activeIndex"
+  />
   <div class="image-gallery">
+    <button class="image-gallery__zoom-icon" type="button" @click="showLightbox = true">
+      <ProductZoom />
+    </button>
     <Swiper
       :navigation="{
         prevEl: '.image-gallery__arrow--prev',
@@ -75,6 +104,8 @@ onUnmounted(() => {
       :thumbs="{ swiper: thumbsSwiper }"
       :key="isTouchDevice ? 'touch' : 'desktop'"
       :zoom="swiperZoomEnabled"
+      @swiper="setMainSwiper"
+      @slide-change="handleSlideChange"
     >
       <SwiperSlide v-for="image in product.images" :key="product.id">
         <div
@@ -172,6 +203,18 @@ onUnmounted(() => {
         content: content-token(big-arrow-right);
       }
     }
+  }
+  &__zoom-icon {
+    position: absolute;
+    z-index: 100;
+    top: 20px;
+    right: 20px;
+    padding: 0;
+    width: 24px;
+    height: 25px;
+    border: none;
+    display: flex;
+    background: none;
   }
 }
 </style>
